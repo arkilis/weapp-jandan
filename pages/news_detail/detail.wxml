@@ -1,0 +1,11 @@
+<!--detail.wxml-->
+<view class="container">
+    <view class="art-header">
+        <image src="{{ image }}" class="art-img"/>
+        <view class="art-title">{{ title }}</view>
+    </view>
+    <view class="art-content">
+      <!--<template is="wxParse" data="{{wxParseData:article.nodes}}"/>-->
+      {{ content }}
+    </view>
+</view>
